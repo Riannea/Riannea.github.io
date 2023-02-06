@@ -1,7 +1,7 @@
 html {
     font-family: "gara1", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: linear-gradient( white, rgb(260, 235, 205));
-background-image: linear-gradient( rgb(260, 235, 205), white);}
+    background-image: linear-gradient(white, rgb(260, 235, 205));
+}
 
 @font-face {
     font-family: "Allison";
@@ -59,18 +59,24 @@ h3 {
 h4 {
     font-size: 24px;
     color: rgba(252, 155, 152, 0.775);
+    margin-left: 80px;
+    margin-bottom: 10px
 }
 
 p {
     color: rgb(68, 65, 61);
     font-size: 24px;
-    font-family: "gara1", sans-serif
+    font-family: "gara1", sans-serif;
+    margin: 10px;
 }
 
 li {
-    font-size: larger;
+    font-size: x-large;
+    text-align: left;
 }
-
+b{
+  text-align:left; 
+}
 .navEA {
     background-color: rgb(260, 235, 205);
     padding: 10px;
@@ -91,7 +97,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(239, 181, 105);
+    background-color: rgb(252, 156, 152);
 }
 
 a:-webkit-any-link {
@@ -102,15 +108,17 @@ a:-webkit-any-link {
 
 
 .üdv {
-    margin-bottom: 3px
+    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-right: 40px;
 }
 
 .signo {
     color: rgb(99, 99, 225);
     font-family: "Abrush", Verdana, Geneva, Tahoma, sans-serif;
     font-size: 35px;
-    margin: 6px;
-    margin: top 0;
+    margin-left: 320px;
+    margin-top: 0px;
 }
 
 img {
@@ -124,19 +132,91 @@ img {
     box-shadow: 3px 3px 5px black;
 }
 
-.szövegkép {
-    float: right;
+.profilkép {
+    height: 200px;
+    float:left;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 80px;
+    padding: 5px}
 
+
+.szövegképjobb {
+    float: right;
+    width: 25%;
+    height: 25%;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.szövegképjobb2 {
+    float: right;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 5px;
+    padding: 5px;}
+
+.szövegképbal {
+    float: left;
+    width: 30%;
+    height: 30%;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 5px;
+    padding: 5px;
+}
+.szövegképbal2 {
+    float: left;
+    width: 90%;
+    height: 20%;
+    margin: 40px;
+    padding: 5px;
+}
+.sor {
+    width: 90%;
+    height: 90%;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 5px
+}
+
+.dobozdivbal {
+
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 5px;
+    margin-top: 5px;
+    text-align: center;
 
 }
+
+.dobozdivjobb {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+
 
 .dobozdiv {
-   
-    margin: 20px;
-    padding: 5px;
-    text-align: bottom;
-    max-inline-size: 70%;
+    margin-left: 20px;
+    margin: right 20px;
+    padding: 20px;
+
 }
+
 
 .divEAlogo {
     background-color: rgb(260, 235, 205);
@@ -157,6 +237,10 @@ p.divEAlogo {
     height: 100px;
     margin: 0px;
     float: left;
+}
+
+.idézet {
+    margin: 20px;
 }
 
 .bold {

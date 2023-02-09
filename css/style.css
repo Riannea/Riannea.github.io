@@ -1,7 +1,13 @@
 html {
     font-family: "gara1", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: linear-gradient(white, rgb(260, 235, 205));
+    margin-right: 30px;
+    margin-left: 30px;
 }
+
+body {
+    background-image: linear-gradient(white, rgb(255, 235, 205));
+}
+
 
 @font-face {
     font-family: "Allison";
@@ -60,7 +66,8 @@ h4 {
     font-size: 24px;
     color: rgba(252, 155, 152, 0.775);
     margin-left: 80px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    text-align: -webkit-center;
 }
 
 p {
@@ -71,14 +78,17 @@ p {
 }
 
 li {
-    font-size: x-large;
+    font-family: "gara1", sans-serif;
+    font-size: 16pt;
     text-align: left;
 }
-b{
-  text-align:left; 
+
+b {
+    text-align: left;
 }
+
 .navEA {
-    background-color: rgb(260, 235, 205);
+    background-color: rgb(255, 235, 205);
     padding: 10px;
 }
 
@@ -134,92 +144,30 @@ img {
 
 .profilkép {
     height: 200px;
-    float:left;
+    float: left;
     margin-bottom: 10px;
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 80px;
-    padding: 5px}
-
-
-.szövegképjobb {
-    float: right;
-    width: 25%;
-    height: 25%;
-    margin-bottom: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 5px;
-    padding: 5px;
-}
-
-.szövegképjobb2 {
-    float: right;
-    width: 50%;
-    height: 50%;
-    margin-bottom: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 5px;
-    padding: 5px;}
-
-.szövegképbal {
-    float: left;
-    width: 30%;
-    height: 30%;
-    margin-bottom: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 5px;
-    padding: 5px;
-}
-.szövegképbal2 {
-    float: left;
-    width: 90%;
-    height: 20%;
-    margin: 40px;
-    padding: 5px;
-}
-.sor {
-    width: 90%;
-    height: 90%;
-    margin-left: 40px;
-    margin-right: 40px;
     padding: 5px
 }
 
-.dobozdivbal {
 
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 5px;
-    margin-top: 5px;
+.szövegkép {
+    width: 95%;
     text-align: center;
-
+    margin: 20px;
 }
 
-.dobozdivjobb {
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 5px;
-    margin-top: 5px;
-    padding: 5px;
+.középszöveg {
     text-align: center;
-}
-
-
-
-
-.dobozdiv {
-    margin-left: 20px;
-    margin: right 20px;
-    padding: 20px;
-
+    margin: 20px;
+    opacity: calc(-50%);
 }
 
 
 .divEAlogo {
-    background-color: rgb(260, 235, 205);
+    background-color: rgb(255, 235, 205);
     color: #fd9c99;
     text-align: center;
     height: max-content;
@@ -241,8 +189,17 @@ p.divEAlogo {
 
 .idézet {
     margin: 20px;
+    text-align: center;
 }
 
 .bold {
     font-weight: bold;
+}
+
+.input{
+    display:block;
+    margin-top: 5px; 
+    text-align: center;
+}
+.urlapmezo{ margin-left: 300px;
 }

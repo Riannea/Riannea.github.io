@@ -785,6 +785,7 @@ progress {
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
+  
 }
 
 .col {
@@ -889,6 +890,7 @@ progress {
 .col-12 {
   flex: 0 0 auto;
   width: 100%;
+
 }
 
 .offset-1 {
@@ -1231,6 +1233,7 @@ progress {
   .col-md-8 {
     flex: 0 0 auto;
     width: 66.66666667%;
+
   }
   .col-md-9 {
     flex: 0 0 auto;

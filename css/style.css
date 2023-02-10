@@ -79,12 +79,16 @@ p {
 
 li {
     font-family: "gara1", sans-serif;
-    font-size: 16pt;
+    font-size: 18pt;
     text-align: left;
 }
 
 b {
     text-align: left;
+}
+
+.szünet {
+    margin: 50px
 }
 
 .navEA {
@@ -93,7 +97,7 @@ b {
 }
 
 button {
-
+    font-family: "gara1", sans-serif;
     border: 2px solid rgb(233, 196, 148);
     border-radius: 9px;
     background-color: rgb(233, 196, 148);
@@ -101,7 +105,6 @@ button {
     margin-top: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    text-decoration-style: double;
     font-weight: bold;
     font-size: medium;
 }
@@ -144,19 +147,15 @@ img {
 
 .profilkép {
     height: 200px;
-    float: left;
-    margin-bottom: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 80px;
-    padding: 5px
-}
+    width: 95%;
+    text-align: center;
+    margin: 20px;}
 
 
 .szövegkép {
     width: 95%;
     text-align: center;
-    margin: 20px;
+    margin: 10px;
 }
 
 .középszöveg {
@@ -196,10 +195,71 @@ p.divEAlogo {
     font-weight: bold;
 }
 
-.input{
-    display:block;
-    margin-top: 5px; 
+.input {
+
+    margin-bottom: 15px;
+    text-align: center;
+    display: block;
+}
+input{width: 300px;}
+
+.urlapmezo {
+    text-align: start;
+     margin-right: 30%;
+}
+
+form {
+   text-align: start;
+    margin-left: 40%;
+}
+
+.táblázat {
+    font-family: "gara1", sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+.középre {
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 24px;
+    font-family: "gara1", sans-serif;
+    width: 250px;
+}
+
+.csomagfels {
+    margin-left: 44%;
+}
+
+table {
+    margin-left: 20%;
+    border: #fd9c99;
+    border-style: solid;
+    border-radius: 10px;
+    border-spacing: 5px;
     text-align: center;
 }
-.urlapmezo{ margin-left: 300px;
+
+th {
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+}
+
+.csháttér {
+
+    border: solid;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    margin-left: 25%;
+    max-width: 700px;
+
+}
+
+.sor1 {
+    border-collapse: collapse;
+    border: solid;
+    border: black
 }

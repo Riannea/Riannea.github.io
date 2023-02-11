@@ -130,14 +130,14 @@ a:-webkit-any-link {
     color: rgb(99, 99, 225);
     font-family: "Abrush", Verdana, Geneva, Tahoma, sans-serif;
     font-size: 35px;
-    margin-left: 320px;
-    margin-top: 0px;
-}
 
+}
+.bérl h2{text-align: center;}
+
+.col{
 img {
     height: 300px;
     box-shadow: 5 5 10 black;
-    margin: 10px;
     border-radius: 10px;
 }
 
@@ -151,18 +151,6 @@ img {
     text-align: center;
     margin: 20px;}
 
-
-.szövegkép {
-    width: 95%;
-    text-align: center;
-    margin: 10px;
-}
-
-.középszöveg {
-    text-align: center;
-    margin: 20px;
-    opacity: calc(-50%);
-}
 
 
 .divEAlogo {
@@ -261,5 +249,14 @@ tr {
 .sor1 {
     border-collapse: collapse;
     border: solid;
-    border: black
-}
+    border: black}
+
+@media (max-width: 768őx) {
+    .container {
+      grid-template-columns: 100%;
+      grid-template-areas:
+        "header" "header" "header" "header"
+        "main-left" "main-left" "main-right" "main-right"
+        "second-left" "second-left" "second-left" "second-right"
+        "footer" "footer" "footer" "footer";
+    }}

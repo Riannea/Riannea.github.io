@@ -130,12 +130,19 @@ a:-webkit-any-link {
     color: rgb(99, 99, 225);
     font-family: "Abrush", Verdana, Geneva, Tahoma, sans-serif;
     font-size: 35px;
+<<<<<<< HEAD
     margin-left: 20%;
     margin-top: 0px;
 }
 .bérl h2{text-align: center;}
 
 .col{margin: left 10%;;}
+=======
+    margin-left: 320px;
+    margin-top: 0px;
+}
+
+>>>>>>> b470cc10775946197261dff6a3a2d1daa6916793
 img {
     height: 300px;
     box-shadow: 5 5 10 black;
@@ -155,6 +162,7 @@ img {
 
 
 .szövegkép {
+<<<<<<< HEAD
     
     text-align: center;
     margin-left: 0;
@@ -163,15 +171,27 @@ img {
 }
 #főasztal{ display: block
     ;}
+=======
+    width: 95%;
+    text-align: center;
+    margin: 10px;
+}
+>>>>>>> b470cc10775946197261dff6a3a2d1daa6916793
 
 .középszöveg {
     text-align: center;
     margin: 20px;
+<<<<<<< HEAD
 
 }
 .közép{
     
 }
+=======
+    opacity: calc(-50%);
+}
+
+>>>>>>> b470cc10775946197261dff6a3a2d1daa6916793
 
 .divEAlogo {
     background-color: rgb(255, 235, 205);
@@ -201,7 +221,10 @@ p.divEAlogo {
 
 .bold {
     font-weight: bold;
+<<<<<<< HEAD
     text-align: left;
+=======
+>>>>>>> b470cc10775946197261dff6a3a2d1daa6916793
 }
 
 .input {
@@ -271,6 +294,7 @@ tr {
     border-collapse: collapse;
     border: solid;
     border: black
+<<<<<<< HEAD
 }
 
 @media (max-width: 768őx) {
@@ -282,3 +306,6 @@ tr {
         "second-left" "second-left" "second-left" "second-right"
         "footer" "footer" "footer" "footer";
     }}
+=======
+}
+>>>>>>> b470cc10775946197261dff6a3a2d1daa6916793

@@ -1,0 +1,284 @@
+html {
+    font-family: "gara1", 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+body {
+    background-image: linear-gradient(white, rgb(255, 235, 205));
+}
+
+
+@font-face {
+    font-family: "Allison";
+    src: url("fonts/Allison_alá/Allison-Regular.ttf");
+}
+
+@font-face {
+    font-family: "ABrush";
+    src: url("fonts/Comforter_Brush_alá/ComforterBrush-Regular.ttf");
+}
+
+@font-face {
+    font-family: "gara1";
+    src: url("fonts/Cormorant_Garamond/CormorantGaramond-Medium.ttf");
+}
+
+@font-face {
+    font-family: "josefin";
+    src: url("fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "josefin2";
+    src: url("fonts/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "oregano";
+    src: url("fonts/Oregano/Oregano-Italic.ttf");
+}
+
+@font-face {
+    font-family: "oregano2";
+    src: url("fonts/Oregano/Oregano-Regular.ttf");
+}
+
+
+h1 {
+    color: rgb(252, 156, 152);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(54, 51, 51);
+    font-size: 30px;
+    text-align: center;
+
+}
+
+h3 {
+    color: burlywood;
+    text-align: center;
+}
+
+h4 {
+    font-size: 24px;
+    color: rgba(252, 155, 152, 0.775);
+    margin-left: 80px;
+    margin-bottom: 10px;
+    text-align: -webkit-center;
+}
+
+p {
+    color: rgb(68, 65, 61);
+    font-size: 24px;
+    font-family: "gara1", sans-serif;
+    margin: 10px;
+}
+
+li {
+    font-family: "gara1", sans-serif;
+    font-size: 18pt;
+    text-align: left;
+}
+
+b {
+    text-align: left;
+}
+
+.szünet {
+    margin: 50px
+}
+
+.navEA {
+    background-color: rgb(255, 235, 205);
+    padding: 10px;
+}
+
+button {
+    font-family: "gara1", sans-serif;
+    border: 2px solid rgb(233, 196, 148);
+    border-radius: 9px;
+    background-color: rgb(233, 196, 148);
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: medium;
+}
+
+button:hover {
+    background-color: rgb(252, 156, 152);
+}
+
+a:-webkit-any-link {
+    text-decoration: solid;
+    font-family: "josefin";
+    color: rgb(11, 9, 9);
+}
+
+
+.üdv {
+    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-right: 40px;
+}
+
+.signo {
+    color: rgb(99, 99, 225);
+    font-family: "Abrush", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    margin-left: 20%;
+    margin-top: 0px;
+}
+.bérl h2{text-align: center;}
+
+.col{margin: left 10%;;}
+img {
+    height: 300px;
+    box-shadow: 5 5 10 black;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.imgSmall {
+    box-shadow: 3px 3px 5px black;
+}
+
+.profilkép {
+    height: 200px;
+    width: 95%;
+    text-align: center;
+    margin: 20px;}
+
+
+.szövegkép {
+    
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+#főasztal{ display: block
+    ;}
+
+.középszöveg {
+    text-align: center;
+    margin: 20px;
+
+}
+.közép{
+    
+}
+
+.divEAlogo {
+    background-color: rgb(255, 235, 205);
+    color: #fd9c99;
+    text-align: center;
+    height: max-content;
+    margin: 0px;
+    padding: 5px;
+    font-style: italic;
+}
+
+p.divEAlogo {
+    padding-top: 10px;
+    margin-top: 15px;
+}
+
+.EAlogo {
+    height: 100px;
+    margin: 0px;
+    float: left;
+}
+
+.idézet {
+    margin: 20px;
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+    text-align: left;
+}
+
+.input {
+
+    margin-bottom: 15px;
+    text-align: center;
+    display: block;
+}
+input{width: 300px;}
+
+.urlapmezo {
+    text-align: start;
+     margin-right: 30%;
+}
+
+form {
+   text-align: start;
+    margin-left: 40%;
+}
+
+.táblázat {
+    font-family: "gara1", sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+.középre {
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 24px;
+    font-family: "gara1", sans-serif;
+    width: 250px;
+}
+
+.csomagfels {
+    margin-left: 44%;
+}
+
+table {
+    margin-left: 20%;
+    border: #fd9c99;
+    border-style: solid;
+    border-radius: 10px;
+    border-spacing: 5px;
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
+
+tr {
+    text-align: center;
+}
+
+.csháttér {
+
+    border: solid;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    margin-left: 25%;
+    max-width: 700px;
+
+}
+
+.sor1 {
+    border-collapse: collapse;
+    border: solid;
+    border: black
+}
+
+@media (max-width: 768őx) {
+    .container {
+      grid-template-columns: 100%;
+      grid-template-areas:
+        "header" "header" "header" "header"
+        "main-left" "main-left" "main-right" "main-right"
+        "second-left" "second-left" "second-left" "second-right"
+        "footer" "footer" "footer" "footer";
+    }}
